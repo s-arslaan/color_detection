@@ -1,0 +1,21 @@
+Methodology:
+- Get the image file and show in a new window
+- Every click on the image records the pixel color values of it.
+- Recorded color values are matched with the dataset and output is generated
+- The output with the necessary details are shown with a rectangle of recorded color background
+
+Every click on image works like this:
+
+------# make a flowchart of this--------
+Clicked on image --> record color values --> match with dataset --> fetch matched details --> show output
+
+References
+Dataset:
+https://en.wikipedia.org/wiki/Web_colors
+https://www.w3schools.com/colors/colors_picker.asp
+
+Accuracy check:
+http://www.colortools.net/color_matcher.html
+
+Image processing:
+https://www.geeksforgeeks.org/python-opencv-cv2-rectangle-method/
