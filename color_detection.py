@@ -45,7 +45,7 @@ if __name__ == '__main__':
     
     while (1):        
         if (clicked):            
-            cv2.rectangle(image, (20, 20), (950, 60), (blueValue, greenValue, redValue), -1)
+            cv2.rectangle(image, (20, 20), (1050, 60), (blueValue, greenValue, redValue), -1)
             colorName = getColorName(redValue, greenValue, blueValue)
             cv2.putText(image, colorName, (50, 50), 2, 0.75, (255, 255, 255), 1, cv2.FONT_ITALIC)
             minimumValue = abs(redValue + greenValue + blueValue)
